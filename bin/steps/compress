@@ -10,6 +10,8 @@
 #   - $DISABLE_COLLECTSTATIC: disables this functionality.
 #   - $DEBUG_COLLECTSTATIC: upon failure, print out environment variables.
 
+sudo apt-get install node-less
+
 source $BIN_DIR/utils
 
 # Location of 'manage.py', if it exists.
