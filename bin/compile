@@ -60,7 +60,7 @@ APT_STATE_DIR="$CACHE_DIR/apt/state"
 APT_OPTIONS="-o debug::nolocking=true -o dir::cache=$APT_CACHE_DIR -o dir::state=$APT_STATE_DIR"
 
 
-apt-get $APT_OPTIONS -y --force-yes -d install --reinstall node-less | indent
+apt-get $APT_OPTIONS -y --force-yes -d install --reinstall node-less
 
 # Syntax sugar.
 source $BIN_DIR/utils
